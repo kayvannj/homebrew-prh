@@ -16,7 +16,7 @@ class Prh < Formula
     
     resource("requests").stage { system "python", *Language::Python.setup_install_args(libexec/"vendor") }
     
-    inreplace "prh", "config_file_path", "#{etc}/"
+    inreplace "prh", "config_file_path", "#{etc}"
     etc.install "prh_config.py"
     bin.install "prh"
 
