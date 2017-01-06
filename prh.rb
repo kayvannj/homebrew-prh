@@ -1,7 +1,7 @@
 # Documentation: https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 
-class Pullrequesthelper < Formula
+class Prh < Formula
   desc "A tool to help creating PullRequests on Github easier and automate some of the steps"
   homepage "https://github.com/kayvannj/PullRequestHelper"
   url "https://github.com/kayvannj/PullRequestHelper/archive/1.0.3.tar.gz"
