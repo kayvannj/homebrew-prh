@@ -4,7 +4,7 @@
 class Prh < Formula
   desc "A tool to help creating PullRequests on Github easier and automate some of the steps"
   homepage "https://github.com/kayvannj/PullRequestHelper"
-  url "https://github.com/kayvannj/PullRequestHelper/archive/1.0.5.tar.gz"
+  url "https://github.com/kayvannj/PullRequestHelper/archive/2.0.0.tar.gz"
   sha256 "3897df9bfa7e8f8550a064918c090ddf8f5afae9f9f6466392b96935bc435fd7"
 
   resource "requests" do
