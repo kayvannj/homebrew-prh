@@ -4,8 +4,8 @@
 class Prh < Formula
   desc "A tool to help creating PullRequests on Github easier and automate some of the steps"
   homepage "https://github.com/kayvannj/PullRequestHelper"
-  url "https://github.com/kayvannj/PullRequestHelper/archive/1.0.4.tar.gz"
-  sha256 "c7c9e803f904151b7ec667171d0f3282b9bbea9ab29d9dd415dd6207dc3ec48f"
+  url "https://github.com/kayvannj/PullRequestHelper/archive/1.0.5.tar.gz"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
   bottle do
     cellar :any_skip_relocation
