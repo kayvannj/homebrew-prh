@@ -4,8 +4,8 @@
 class Prh < Formula
   desc "A tool to help creating PullRequests on Github easier and automate some of the steps"
   homepage "https://github.com/kayvannj/PullRequestHelper"
-  url "https://github.com/kayvannj/PullRequestHelper/archive/2.0.1.tar.gz"
-  sha256 "d9f20b1c56e37b2195db838d8c10c59f2164ade5c04f9f843522faec804ef47d"
+  url "https://github.com/kayvannj/PullRequestHelper/archive/2.1.0.tar.gz"
+  sha256 "69cdb212654698e6314c302210f12750429f1a8dc820180998d04ce880dd1bb6"
 
   resource "requests" do
     url "https://pypi.python.org/packages/5b/0b/34be574b1ec997247796e5d516f3a6b6509c4e064f2885a96ed885ce7579/requests-2.12.4.tar.gz#md5=acdb48888a9d3c7309da12fc7f83fedb"
@@ -17,7 +17,9 @@ class Prh < Formula
     resource("requests").stage { system "python", *Language::Python.setup_install_args(libexec/"vendor") }
     
     inreplace "prh", "config_file_path", "#{etc}"
-    etc.install "prh_config.py"
+    if !File.file?(etc+"/prh_config.py")
+      etc.install "prh_config.py"
+    end
     bin.install "prh"
 
   end
