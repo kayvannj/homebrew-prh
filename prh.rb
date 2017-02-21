@@ -5,7 +5,7 @@ class Prh < Formula
   desc "A tool to help creating PullRequests on Github easier and automate some of the steps"
   homepage "https://github.com/kayvannj/PullRequestHelper"
   url "https://github.com/kayvannj/PullRequestHelper/archive/2.1.1.tar.gz"
-  sha256 "65512743312d2674f55df318ee25c94922f5b019757c5383593c27c8100b1d62"
+  sha256 "9fbaf048376fe16598e57090fa873145cceb00a9e460eca63523e5710f354292"
 
   resource "requests" do
     url "https://pypi.python.org/packages/5b/0b/34be574b1ec997247796e5d516f3a6b6509c4e064f2885a96ed885ce7579/requests-2.12.4.tar.gz#md5=acdb48888a9d3c7309da12fc7f83fedb"
