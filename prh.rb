@@ -20,6 +20,11 @@ class Prh < Formula
     mv "prh.py", "prh"
     bin.install "prh"
 
+    begin
+      cp "/usr/local/etc/prh_config.py.default", "/usr/local/etc/prh_config.py"
+    rescue
+    end
+
   end
 
   
