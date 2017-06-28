@@ -5,8 +5,8 @@ class Prh < Formula
   desc "A tool to help creating PullRequests on Github easier and automate some of the steps"
   homepage "https://github.com/kayvannj/PullRequestHelper"
   # head "https://github.com/kayvannj/PullRequestHelper.git"
-  url "https://github.com/kayvannj/PullRequestHelper/archive/2.3.0.tar.gz"
-  sha256 "9e656606343c01e1d1d976c95997f83840a804618839aa5f5dff20b2b02de9b0"
+  url "https://github.com/kayvannj/PullRequestHelper/archive/2.3.1.tar.gz"
+  sha256 "5e6aec6153335377a526c12a636deb25762f60ae3a5c39f7a8fb47b6be4b36ae"
 
   depends_on :python if MacOS.version <= :snow_leopard
 
